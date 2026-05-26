@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_info">
+    <sys_app_info action="INSERT_OR_UPDATE">
+        <properties>{"generated_using_ai":"true"}</properties>
+        <sys_class_name>sys_app_info</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 18:26:08</sys_created_on>
+        <sys_id>017aee5a930143102362f1c65d03d61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AI Experiment Tracker" source="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Experiment Tracker">91686a96930143102362f1c65d03d60e</sys_scope>
+        <sys_update_name>sys_app_info_017aee5a930143102362f1c65d03d61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 18:26:08</sys_updated_on>
+    </sys_app_info>
+</record_update>
