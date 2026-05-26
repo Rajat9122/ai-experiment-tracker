@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category/>
+        <client_script/>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_184699_ai_expe_0_dashboard.do</endpoint>
+        <html><![CDATA[
+<!-- @fluent-import-html WARNING: This file was imported from the output of a static build. Modifications of any kind are likely to result in unintended behavior. In most cases, you should edit the source file of the HTML imported below. If you are absolutely certain you want to take control of this HTML, you can remove this comment to prevent the SDK from regenerating it. However, you will then be responsible for the management of this HTML in your Fluent file. -->
+<html class="-polaris">
+  <head>
+    <title>AI Experiment Tracker - Dashboard</title>
+    <!-- @sdk:now-ux-globals -->
+    <!-- Resolved from sdk:now-ux-globals tag at NowSDK build time to support earlier Glide releases -->
+    <script>window.NOW = {};
+window.NOW.user = {};
+window.NOW.batch_glide_ajax_requests = false;
+window.NOW.isUsingPolaris = true;
+window.NOW.exclude_dark_theme = "false";
+window.g_ck = "$[gs.getSession().getSessionToken() || gs.getSessionToken()]";</script>
+    <!-- Include ServiceNow's required scripts -->
+    <g:requires name="scripts/doctype/functions_bootstrap14.js"></g:requires>
+    <g:requires name="scripts/lib/prototype.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideURL.js"></g:requires>
+    <g:requires name="scripts/doctype/CustomEventManager.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideAjax.js"></g:requires>
+    <g:requires name="scripts/classes/GlideUser.js"></g:requires>
+    <g2:client_script type="user"></g2:client_script>
+    <link rel="preload" href="/uxasset/set-cache-buster/$[UxFrameworkScriptables.getFlushTimestamp()].js" as="script"></link>
+    <g:requires name="scripts/polaris_theme_refresh_observer.js"></g:requires>
+    <link data-source-id="glide-theme" id="polarisberg_theme_variables" rel="stylesheet" href="/$uxappimmutables.do?sysparm_request_type=ux_theme$[AMP]sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022$[AMP]uxpcb=$[sn_ui.PolarisUI.getThemeVariableCssCacheKey()]"></link>
+    <script type="module" src="/uxasset/externals/@devsnc/library-uxf/index.jsdbx"></script>
+    <!-- @sdk:now-ux-globals -->
+    <script>if (!Array.from) {
+      Array.from = function(arrayLike, mapFn, thisArg) {
+        var items = Object(arrayLike);
+        var len = items.length >>> 0;
+        var result = [];
+        for (var i = 0; i < len; i++) {
+          result.push(mapFn ? mapFn.call(thisArg, items[i], i) : items[i]);
+        }
+        return result;
+      };
+    }
+    (function() {
+      var collections = [
+        typeof Set !== 'undefined' ? Set : null,
+        typeof Map !== 'undefined' ? Map : null
+      ];
+      collections.forEach(function(Collection) {
+        if (Collection && !Collection.prototype[Symbol.iterator]) {
+          Collection.prototype[Symbol.iterator] = Collection.prototype.values;
+        }
+      });
+      if (typeof NodeList !== 'undefined' && !NodeList.prototype[Symbol.iterator]) {
+        NodeList.prototype[Symbol.iterator] = Array.prototype[Symbol.iterator];
+      }
+    })();</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/uxasset/externals/x_184699_ai_expe_0/dashboard/dashboard-main.jsdbx?uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]" type="module"></script>
+  </body>
+</html>]]></html>
+        <name>dashboard</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:13:23</sys_created_on>
+        <sys_id>e248a96e170048f6af7b142a802da55a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dashboard</sys_name>
+        <sys_package display_value="AI Experiment Tracker" source="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Experiment Tracker">91686a96930143102362f1c65d03d60e</sys_scope>
+        <sys_update_name>sys_ui_page_e248a96e170048f6af7b142a802da55a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 19:13:23</sys_updated_on>
+    </sys_ui_page>
+    <sn_glider_source_artifact_m2m action="INSERT_OR_UPDATE">
+        <application_file display_value="dashboard">e248a96e170048f6af7b142a802da55a</application_file>
+        <source_artifact display_value="x_184699_ai_expe_0_dashboard.do - BYOUI Files">4ebd1e6b392a4517b4c6ab044a9a9a5b</source_artifact>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:13:23</sys_created_on>
+        <sys_id>2aae356d7069456b98f77060656a260f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 19:13:23</sys_updated_on>
+    </sn_glider_source_artifact_m2m>
+    <sn_glider_source_artifact action="INSERT_OR_UPDATE">
+        <name>x_184699_ai_expe_0_dashboard.do - BYOUI Files</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:13:23</sys_created_on>
+        <sys_id>4ebd1e6b392a4517b4c6ab044a9a9a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 19:13:23</sys_updated_on>
+    </sn_glider_source_artifact>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>933336</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/zip</content_type>
+        <file_name>x_184699_ai_expe_0_dashboard.do - BYOUI Files.zip</file_name>
+        <hash>bcbc8f158a10e9336b378a6500052f82edebdef1816f1d2b42681362840a17ab</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>8725</size_bytes>
+        <size_compressed>4779</size_compressed>
+        <state/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:13:23</sys_created_on>
+        <sys_id>b559c9e23ecebd89f743f5c3c963ce68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 19:13:23</sys_updated_on>
+        <table_name>sn_glider_source_artifact</table_name>
+        <table_sys_id>4ebd1e6b392a4517b4c6ab044a9a9a5b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>UEsDBBQAAAAIAAAAIQScv0+AkgEAACkDAAAmAAAAc3JjL2NsaWVudC9kYXNoYm9hcmQvQ29zdFRyZW5kTGlzdC50c3iNUsFKJDEQvfdXFDkp9OzswrKszrQs2yoeRGH04inEpNRguiJJWh2bBj/CL/RLrPQMYysePHU179Wrl1dlmzsfEixQ6QRXwTcgQq7FrFhDHdQqGOjX6L+I4d5qJP8wHZgT7ZlISClOM/Nz5xEqg+H7/Sv+WOXEPyxQ+2CObUy1J0Kd8JuOvu5l9UJ7iglqH9N5QBrw3VUOPw5rqGBrG6o96AqAgKkNBFtcAsyNvQftVIwnqsFKaBaYpKwwiaxtPYm9gcjUIThLCQOrMlIJYlsCon3izsZsmGvuOqob/li6rroOnLpEtwsi24TBJ7w+v7BNfi5vraUooO9hOhL6+sUbHCCpS8fjH+Wvv7//7OxIZSU+3qH8KUNLYkR0LHBuUyaPBg4G3v2MG7R3bUOxEnEZpeZd8GDpqczywTasUDbeoJNtRFPm5CTGZBvmlZEtY+m4JL0ci97ishKni/2Dxf+L/YOz+qP2mHljDa4irLoUWuw32Caf+XBiq7/5lFeZy+1Z0fNBsMt8bwavVOs+XcaseANQSwMEFAAAAAgAAAAhBGzYQvDfAAAA5QEAACUAAABzcmMvY2xpZW50L2Rhc2hib2FyZC9EYXNoYm9hcmRBcHAudHN4bZDLTsMwEEX3/oqRV+2CWN2Sh4QKrAChih8w9lSxlNjR2EGVEP+OUxKbEHajOffO45p+cBTghFIFOJPrgdNU85LN6F769t1J0s8YyCg/qwrxF2TLabT+FenhMiCZHu0yuRAbkk1H58MbodVPxmfDqpvFkehlfaH8tJspZ6MxXXU3DLc/fxWPR6hht4e6gU8GQBhGsrCLJUClzQeoTnr/InuseRrLmyuPivbwr+AmmNAhb369uUSUjqhEe0hzNkmKhLaJZbYOZu5XIt49lfuSfcXn8XLNReNZjt06hZJ9A1BLAwQUAAAACAAAACEE3NP9Vn4DAAB6CQAAKQAAAHNyYy9jbGllbnQvZGFzaGJvYXJkL0Rhc2hib2FyZE1ldHJpY3MudHN4rVbbbttGEH33V0yJPFCARDZFWzS2JFd1YvShDQo7BQoYAb0mh/I2q11idylZYQjkI/IN+bB8SWaXF1E2gkRw/GAtyTlnZs+eGZKvCqUtXCBL7RgqKA2+yHN0F7S8tMwi1JBrtYJAu6Dg5KjFVHDGdNY//d2gXvMUpdrEPnKSKgqUKK2JXeR95J/IMtTfjm/iieUoVdJY+GNx+QJmEMSs4LFDGarWxHfJ099+/vXZs4TxBO8KTH5MdCkJ1qBuPYshYAWLNMXCHkPAikLwlFmuZPy/UTIYQ/Df5F+q6JV6gzI4hnDDZaY2wAwwuR1FyyR9A3Vfy3Nmbm8UFfk3Ws1Tc9woGp2fUaJwBLM5VEcATfCVVZaJi1KaMRi0r7qr1xTbiT6V5eqG1HkHshRiHrr/o5MdBVsvL1Ol0TMs2otDCHwNZ8rQQXc1uKtDKIRiGZdLT/BXsx7CQ6tLpHgC9K4Kd1p0NDna9HYhBCGZ2cp0IJf7s3rbr/vMqSqlvUDSj3Twv6Zc0a9LzzaMW/iHPMUNRkyI8KqHQ5MtvH5SOffUp2ZrCqZXiSecuYKvXRd0JqlH469jqYQk5ygyMzPuFA5noOI7hpTOIEFj+YoU/CLTa38MQ0n8Bp4zy3oFOo0iZ+jwAYCq3gtvhPxCMBW4F9yo3Qf30UM3hy+9e8K+skijKYWNfJtG/vZokGng4w7a1rgPpJuR1/keuLdwh26L3kfTTUo90HjHUgNNgPQWQhzdc5wSGKHWSofBOeMCM7CqOUtYNf1OA8NZvSPKuSTjDY27a5EwZ8IMgv0vTZLeH9QLzQnUY7hyJ01LnkPYttsINNpSS5gWkApmzEu2wlnQPp1YvLPBvM3Vlffp/cdpXMw9VYsOfcJpxtdDljZ+stQ8C+ZtiVM/57m0qGmm0YycBZLmcgCGv3WYzK0yvGF6VlUkmFCaZiqXuSJZ1kxzJt2QLTQJrrcB1HXH3HK3bwLndCrakQh2g4Iw/lDB2cnBIB4AqXXkw9InayZKDOZVP2Ph9BSCT+8/BPU0dph+V/6l8rg9Fspwy9f46H0u1pR3ieDtf+BWB/Ol6l4L8MNs5qc2nAKNm+52ZNU5v8MsfDqq41+ugTJ7ZXapvrtEG6YlbfY7OcH19yPk6V96+/o82T3oFfppVB+kzzSmVnJLalj3XUCfHu5TJ8Oc0fR58IFwcvQZUEsDBBQAAAAIAAAAIQTABSaYlQMAAPEHAAAqAAAAc3JjL2NsaWVudC9kYXNoYm9hcmQvUnVuc1BlckV4cGVyaW1lbnQudHN4jVVRbuM2EP33KaZCW0hFIiVAUXQd22mxzbYf26BIG6CAEWhpaRSzpiiBpGK7XgE9TQ+2J9khKcmKswusfyyRb2bevHmkeFlXysAdssycwQEajTdFgfaFHv80zCC0UKiqhEBZUHA16WIO8JqpfNj9SaN64hnKaps45HlWEVCiNDqxyNPI35DlqL483uMpy4RLg6pgGcKvqmrqG2nUHg4TAMFWKKagjeLy8YoWsqqRZgqyKVeoribtZJJVUhu4v3sLc9oPElbzxJbU1KpOdunlj9//8OpVyniKuxrTi1Q18lrvdc1Umbp0c6Ma/LZferQM0tV+buGKl0R32Mu5rgXbp09MNOjCiL0nsHbNaJiTGD9nGdbEMmB1LXjGDK9k8o+uZHAGwd/n9yTMX9UGZTCFcMtlXm2BaWByH8WPabaBliTxWe8aqf9AdTNQmfrJxm9eU6UwgvnC6eTRy5wZdgYazS/08ECIfuSzo67Lh0W4fIi8mC5KVCwneV3gW/88jg1tn4SngMFM4bF0n6ZAk61tXQplei+zET3760fqfz5GoRWMbRnv4kOao3Vtr2breI5DrIxDDMXHdiF8ASOpFEc9HRlqaZsKLTymuEYYeP8eSIm4ZHUYcoPl1M3Akg6PTAcTWkTs3LHapwVHkevreHnxcB0/s4XNGtzLDXmQ5j1K01n31lnX1YudR2O3ER2hbTRqpxtm2DU07LRAvsrWEGJ0ImslMEalKhUGbxgXmIOpvLpA1tdAVoKjt8mSdrh90oJLJsR4UkdThAUTegR2/+RV+zdM34+iPbPKOs/4eZRsR+r/zsya5N6FcRxbr3rpcyd53usAlz6QFxB21oxo0qZREmY1ZIJpfctKnAfd7rnBnQkWHUvI1kyZD//9P0vqheVi83zlqgmUj2b9mWSyOregLtltZcUCuwLsiWRkK4E+I6XsEoSu9VnOn8aJVkydazojdOiDRafVbHQ/Wm8Tz/nh0DsrsMfczeV40ANoW0j6+MNRLWuEzqTDjFx62OB+fnDbsUvcgrtX6bogKrZBiQFo/i9x1OVA7XMtqGr7DEMougTlKcxVChbP6s4SizwJ/kQJQ9w2J0U88mSJXPQ8suBCBC9A2uwFWl23PDfrKbz7+uDl8taCxNowgu/g8uKi/eYdKXySYtC7Y5IQlS/QwGUfNHBvn9DgJNvMfQP79yjyXAYQnQH7GaCDaj+wORbM3lgvvgdXk49QSwMEFAAAAAgAAAAhBCjxR7mTAAAA7QAAACcAAABzcmMvY2xpZW50L2Rhc2hib2FyZC9kYXNoYm9hcmQtbWFpbi50c3hVjjEOwjAMRfeewmQqA+0BCkggGFh7g5AYqNTElWsGhLg7jhRBuli2//P3H8JELNCjdQI3pgCGU2+6KktvcLoR7IkEPiWz8RRaNw4YC/xk58eVLPvDNGW4aculopWjOAtoFTtEZNiBJ/cMatTcUc4jpvb4uvjasL416y6fpEnpf6L6Z7JSKMkNY/TI9XaRpN2r/AVQSwMEFAAAAAgAAAAhBAkarrNFAgAA9QUAACIAAABzcmMvY2xpZW50L2Rhc2hib2FyZC9kYXNoYm9hcmQuY3NztVTbjtowEH3nK/xSiZUwCmG5NPs1TmyCtY4d2RMCrfrvnbFzYbuFlSr1ASMN45lzM2spwrl0wkv2c8FYI6681xLOBdvkWdZe32LR19oWLGOiA0eVVkipbV2w3KvmbfFrsZjncNBgVJx2chZ40D8UTlsfdrF3qPZK12co2CHLqFY543zBfF0uL8IvObeu57HIOagrcN56jThuK5bn+Dng5/jy8hFdhltoCcORBKlR4HUVeO11Yid1aI24FYwqdJe+cX6DVVC0r2tsQBiqVQKWxJafNKxYoy0qs8xzVGTFNiefVteiJWYjsYSElw7ANffaJCD8Ikz3SZh8nT8TZoJcGle9320Bh7uzafc/C0j4SuF5UBVoZ4cUPCBCjd71H8U8GRVjIoyuLdcoJ0pYKQvKTyJls/1TdhL40SwabUSpTEKA68cc7ocY3omWrY/TvK+ZIzVnZeS+yTI69nR8Tyb2Z4TMQysqHIx3vWip7C7Kn4zrC3bWUipLtThu/kEZo9ugw0wAvKjek8MoCmKnW+fB0fw18Sixp/aus/IBaqs6HGQ4J6O28XilY58Al85LhT4IqTtUepj6Ge8I6qRNEnUEgiJ8ew5ExCyI0qgpN5zP7QnoipGW+RGP/fYZNCRjg6aJBYumon/bwJQIakZZ4WD40/vtvfXjy9inl/EgDtGjGEUkRRfSisoFQHsUgv9L0uNjGh8ytRuHFGwdAxQbv04Zxh10CtmOhNnt6Bj+pKbQb+4ibx2XAsT/WzKKBDeDKmlAWSpa/RtQSwMEFAAAAAgAAAAhBGwk3oIZAgAAugQAAB8AAABzcmMvY2xpZW50L2Rhc2hib2FyZC9pbmRleC5odG1sjVTBjtowEL3zFUNU7QYthD2zSVaoXaRK2/bA9oQ4OLFDXBw7sh0WVPHvHSchgS4rccp45j375XnGYW4LAakgxkTepFSCaG68eBDmjNB4ABBabgWL59/hZV8yzQsmLbxpkm6Zhgl8IyZPFNE0nDZARzF0O5PqfVLtJxuhEiJMHE6vJGtsqnlpXQjAM/CHc63JIci0Kkbwt04D9DmIIKtkarmSPnHZV75lYyhIuZBjsDk3c73piQA7ooFbVhhk/kr+sNT2vNHTBUwwiaAaHGC8sTnEcQyPlyjNTCUsAlfrvpApDX59FBYen/ATuu0weHg4VwMtPSgrk/u1anhu1AcpEcJv/2DcyFjxNUYjmHXLM8nHLtLMVlq2W58AxyZoUH5nWq/GyU2VEGgJFpw/q25HeyiZymDJLAyjCO4rSVnGJaP3KNdlZyArIcb/E36Q8grBZRtCi++cOzs/QA9fSJr3Ur92xXMLXZP0Fbi7g2G/DEqtrHJiVstDkSgRoHGaWKXXl9dwEwUtuYYLdkRUzHy8iWN3O05ka8lPRdkrNx+NdMpPxRt13wBHzc20fA7pOqRpkJFfy8YJbUcxnDbDHyaKHuohpXwHnEaeVsp6OMu4PhteMDqNPHp6CSYF4TKwZv9c7cs0ib6sfu8XmhTsXentsmaQRDATbJhdCJyDN3xUjCVF6Y/WXt1JkVcoWgnmzupVNXJQHT5Z8eAfUEsBAhQAFAAAAAgAAAAhBJy/T4CSAQAAKQMAACYAAAAAAAAAAAAAAAAAAAAAAHNyYy9jbGllbnQvZGFzaGJvYXJkL0Nvc3RUcmVuZExpc3QudHN4UEsBAhQAFAAAAAgAAAAhBGzYQvDfAAAA5QEAACUAAAAAAAAAAAAAAAAA1gEAAHNyYy9jbGllbnQvZGFzaGJvYXJkL0Rhc2hib2FyZEFwcC50c3hQSwECFAAUAAAACAAAACEE3NP9Vn4DAAB6CQAAKQAAAAAAAAAAAAAAAAD4AgAAc3JjL2NsaWVudC9kYXNoYm9hcmQvRGFzaGJvYXJkTWV0cmljcy50c3hQSwECFAAUAAAACAAAACEEwAUmmJUDAADxBwAAKgAAAAAAAAAAAAAAAAC9BgAAc3JjL2NsaWVudC9kYXNoYm9hcmQvUnVuc1BlckV4cGVyaW1lbnQudHN4UEsBAhQAFAAAAAgAAAAhBCjxR7mTAAAA7QAAACcAAAAAAAAAAAAAAAAAmgoAAHNyYy9jbGllbnQvZGFzaGJvYXJkL2Rhc2hib2FyZC1tYWluLnRzeFBLAQIUABQAAAAIAAAAIQQJGq6zRQIAAPUFAAAiAAAAAAAAAAAAAAAAAHILAABzcmMvY2xpZW50L2Rhc2hib2FyZC9kYXNoYm9hcmQuY3NzUEsBAhQAFAAAAAgAAAAhBGwk3oIZAgAAugQAAB8AAAAAAAAAAAAAAAAA9w0AAHNyYy9jbGllbnQvZGFzaGJvYXJkL2luZGV4Lmh0bWxQSwUGAAAAAAcABwBIAgAATRAAAAAA</data>
+        <length/>
+        <position>0</position>
+        <sys_attachment display_value="x_184699_ai_expe_0_dashboard.do - BYOUI Files.zip" sys_id="b559c9e23ecebd89f743f5c3c963ce68">b559c9e23ecebd89f743f5c3c963ce68</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:13:23</sys_created_on>
+        <sys_id>fd0defbdfd1a87bd25038b4f40ae3418</sys_id>
+    </sys_attachment_doc>
+</record_update>
