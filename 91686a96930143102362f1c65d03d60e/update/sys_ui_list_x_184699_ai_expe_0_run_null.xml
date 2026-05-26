@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_list table="x_184699_ai_expe_0_run">
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>7feaa6e4205c4b61bcc5484104fee1f9</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>number</element>
+      <position>0</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>65bd00b748684bcb8a9091d069215d0f</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>model_used</element>
+      <position>1</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>fe1c7d63b1fa4285ba98b97cddf9759e</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>prompt_version</element>
+      <position>2</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>0394463e7700409fa02d70d842c00e7a</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>latency</element>
+      <position>3</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>27103902462d4ae4903c7eecc2ede7ad</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>cost_estimate</element>
+      <position>4</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>0ac6f5f2b09342b1af2ea79fa8b6c6c9</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>score</element>
+      <position>5</position>
+    </sys_ui_list_element>
+    <sys_ui_list_element action="INSERT_OR_UPDATE">
+      <sys_id>2efa216e6ace40ee95988ee17005f36a</sys_id>
+      <list_id display_value="x_184699_ai_expe_0_run" element="NULL" name="x_184699_ai_expe_0_run" parent="x_184699_ai_expe_0_experiment" relationship="NULL" sys_domain="global" view="Default view">313c19a2e21f439faa8408e63b68176a</list_id>
+      <element>sys_created_on</element>
+      <position>6</position>
+    </sys_ui_list_element>
+    <sys_ui_list action="INSERT_OR_UPDATE">
+      <sys_id>313c19a2e21f439faa8408e63b68176a</sys_id>
+      <sys_scope display_value="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_scope>
+      <view name="NULL">Default view</view>
+      <name>x_184699_ai_expe_0_run</name>
+      <parent>x_184699_ai_expe_0_experiment</parent>
+    </sys_ui_list>
+  </sys_ui_list>
+</record_update>
