@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE">
+    <sys_id>0a341847728d4318b0d853ffc2d3e662</sys_id>
+    <sys_scope display_value="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_scope>
+    <sys_update_name>sys_app_application_0a341847728d4318b0d853ffc2d3e662</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description>Governed registry for AI experiment pilots</description>
+    <device_type>browser</device_type>
+    <hint>Manage AI/LLM experiments, runs, and approvals</hint>
+    <name/>
+    <order>100</order>
+    <roles/>
+    <title>AI Experiment Tracker</title>
+  </sys_app_application>
+</record_update>

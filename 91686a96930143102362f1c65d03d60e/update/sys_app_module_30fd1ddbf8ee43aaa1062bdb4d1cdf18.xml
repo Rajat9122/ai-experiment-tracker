@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>30fd1ddbf8ee43aaa1062bdb4d1cdf18</sys_id>
+    <sys_scope display_value="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_scope>
+    <sys_update_name>sys_app_module_30fd1ddbf8ee43aaa1062bdb4d1cdf18</sys_update_name>
+    <active>true</active>
+    <application>0a341847728d4318b0d853ffc2d3e662</application>
+    <hint>Dashboard with experiment stats and active list</hint>
+    <link_type>DIRECT</link_type>
+    <order>100</order>
+    <query>x_184699_ai_expe_0_home.do</query>
+    <title>Homepage</title>
+  </sys_app_module>
+</record_update>

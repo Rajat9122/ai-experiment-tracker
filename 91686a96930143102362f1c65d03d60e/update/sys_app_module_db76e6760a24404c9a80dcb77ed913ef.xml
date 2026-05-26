@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>db76e6760a24404c9a80dcb77ed913ef</sys_id>
+    <sys_scope display_value="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_scope>
+    <sys_update_name>sys_app_module_db76e6760a24404c9a80dcb77ed913ef</sys_update_name>
+    <active>true</active>
+    <application>0a341847728d4318b0d853ffc2d3e662</application>
+    <hint>View all experiment runs</hint>
+    <link_type>LIST</link_type>
+    <name>x_184699_ai_expe_0_run</name>
+    <order>400</order>
+    <title>Runs</title>
+  </sys_app_module>
+</record_update>
