@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="6090510d3833418697f89d4047ef732c" label="Approval" name="x_184699_ai_expe_0_approval" type="collection">
+        <element choice="1" default="pending" label="Decision" max_length="40" name="decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Approver" mandatory="true" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element display="true" label="Experiment" mandatory="true" max_length="32" name="experiment" reference="x_184699_ai_expe_0_experiment" reference_cascade_rule="cascade" type="reference"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="experiment"/>
+        </index>
+    </element>
+</database>

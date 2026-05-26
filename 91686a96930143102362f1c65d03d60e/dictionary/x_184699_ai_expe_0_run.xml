@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="623c72b449714ad9aed8ec3c781eb280" label="Run" name="x_184699_ai_expe_0_run" type="collection">
+        <element label="Prompt Version" max_length="100" name="prompt_version" type="string"/>
+        <element label="Experiment" mandatory="true" max_length="32" name="experiment" reference="x_184699_ai_expe_0_experiment" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Cost Estimate (USD)" max_length="20" name="cost_estimate" type="decimal"/>
+        <element label="Score" max_length="40" name="score" type="integer"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Latency (ms)" max_length="40" name="latency" type="integer"/>
+        <element display="true" label="Model Used" mandatory="true" max_length="200" name="model_used" type="string"/>
+        <index name="index">
+            <element name="experiment"/>
+        </index>
+    </element>
+</database>

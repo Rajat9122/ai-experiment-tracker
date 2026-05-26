@@ -1,14 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
-  <sys_app_module action="INSERT_OR_UPDATE">
-    <sys_id>389c3acffe314543a2a46287ba9ec2e9</sys_id>
-    <sys_scope display_value="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_scope>
-    <sys_update_name>sys_app_module_389c3acffe314543a2a46287ba9ec2e9</sys_update_name>
-    <active>true</active>
-    <application>0a341847728d4318b0d853ffc2d3e662</application>
-    <hint>Create a new AI experiment</hint>
-    <link_type>NEW</link_type>
-    <name>x_184699_ai_expe_0_experiment</name>
-    <order>300</order>
-    <title>New Experiment</title>
-  </sys_app_module>
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AI Experiment Tracker">0a341847728d4318b0d853ffc2d3e662</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Create a new AI experiment</hint>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title/>
+        <mobile_view_name/>
+        <name>x_184699_ai_expe_0_experiment</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>false</require_confirmation>
+        <roles/>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-26 19:00:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>389c3acffe314543a2a46287ba9ec2e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Experiment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Experiment Tracker" source="x_184699_ai_expe_0">91686a96930143102362f1c65d03d60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Experiment Tracker">91686a96930143102362f1c65d03d60e</sys_scope>
+        <sys_update_name>sys_app_module_389c3acffe314543a2a46287ba9ec2e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-26 19:00:14</sys_updated_on>
+        <timeline_page/>
+        <title>New Experiment</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
 </record_update>

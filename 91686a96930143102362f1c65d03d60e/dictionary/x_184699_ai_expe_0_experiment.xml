@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="dfb4803c6fad43ec9c4e688f53243198" extends="task" label="Experiment" name="x_184699_ai_expe_0_experiment" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" default="draft" label="Experiment Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Running" sequence="1" value="running"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="Archived" sequence="3" value="archived"/>
+            </choice>
+        </element>
+        <element label="Hypothesis" max_length="4000" name="hypothesis" type="string"/>
+        <element display="true" label="Experiment Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element label="Owner" mandatory="true" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Team" max_length="32" name="team" reference="sys_user_group" type="reference"/>
+    </element>
+</database>
